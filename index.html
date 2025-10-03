@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Khansa ✨</title>
+  <style>
+    body {
+      margin:0;
+      font-family: 'Trebuchet MS', sans-serif;
+      text-align:center;
+      background: linear-gradient(270deg, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb);
+      background-size: 800% 800%;
+      animation: bgMove 15s ease infinite;
+      color:#fff;
+    }
+    @keyframes bgMove {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+    marquee {
+      background: rgba(0,0,0,0.3);
+      padding:10px;
+      font-size:18px;
+      border-radius:12px;
+      font-weight:bold;
+    }
+    .card {
+      background: rgba(255,255,255,0.9);
+      color:#333;
+      margin:40px auto;
+      padding:20px;
+      border-radius:25px;
+      max-width:400px;
+      box-shadow:0 8px 25px rgba(0,0,0,0.3);
+      animation: float 3s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%,100%{transform:translateY(0);}
+      50%{transform:translateY(-8px);}
+    }
+    h2 {
+      color:#d81b60;
+      margin-bottom:10px;
+    }
+    .motivasi {
+      color:#0277bd;
+      font-style:italic;
+      font-weight:bold;
+      margin-top:15px;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from {color:#0277bd;}
+      to {color:#ff4081;}
+    }
+  </style>
+</head>
+<body>
+  <marquee>🌸✨ Selamat datang di website saya 💖 Terimakasih telah berkunjung 🌈</marquee>
+
+  <div class="card">
+    <h2>Khansa Atika Zahra ✨️</h2>
+    <p>📍 Pekanbaru, 27 April 2009</p>
+    <p>🏠 Jalan Gabus</p>
+    <p>🎓 Kelas XI.8 SMAN 14 Pekanbaru</p>
+    <p>🍢 Sate | 🥤 Redvelved</p>
+    <p class="motivasi">"Tetap semangat 💪🌟 masa depan cerah menantimu!"</p>
+
+    <!-- Instagram Link -->
+    <p>
+      <a href="https://www.instagram.com/caazhra_?igsh=MXd6bDVudnJmYnRpeg==" target="_blank" style="color:#d81b60; text-decoration:none; font-weight:bold;">
+        📸 Ikuti saya di Instagram
+      </a>
+    </p>
+  </div>
+</body>
+</html>
